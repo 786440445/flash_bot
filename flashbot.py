@@ -948,7 +948,7 @@ if __name__ == '__main__':
     # 设置几种策略。
     # 1. 开盘抢币止盈止损卖出
     # 2. 指定价格买入，指定价格卖出，包括止损。
-    # 4. 一键卖出，包含百分比。
+    # 3. 一键卖出，包含百分比。
     """
     parser = argparse.ArgumentParser(description='set some params.')
     parser.add_argument('--token_address', required=True, type=str)
